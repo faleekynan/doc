@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+nav {
+  display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+		z-index: 999;
+		    position: relative;
+}
+.right_ad,
+.left_ad{
+	position:relative;
+	z-index: 99999999999;
+}
+
+.adv{
+	
+	
+}
+.adv img{
+	width: 100%;
+}
+
+.rand_btn{
+	font-size: 110%;
+    background: blue;
+    color: yellow;
+    border: none;
+	padding: 5px 10px;
+}
+.rand_btn:hover{
+	opacity:0.7;
+}
+.rand_btn:focus {
+    background: #E94B3C;
+	color:white;
+	transition:0.5s;
+}
+.inputs{
+	  
+}
+.paste_inputs input{
+	  
+}
+.inputs input{
+	    width:45%;
+		margin-right: 1%;
+		    font-size: 110% !important;
+    padding: 5px;
+}
+
+.creo{
+	position: absolute;
+    bottom: 0;
+    right: 3rem;
+    font-size: 150%;
+	font-family: cursive;
+	margin-block-end: 0;
+}
+input[type="radio" i] {
+	width: auto !important;
+}
+
+.selphie{
+	margin: 0 auto;
+	text-align: center;
+}
+.selphie img{
+	width: 90%;
+}
+
+.btn_current{
+	background: blue;
+    padding: 10px 15px;
+    font-size: 25px;
+    text-decoration: none;
+	color: yellow;
+	font-weight:bold;
+	font-size: 140%;
+}
+.btnn,
+.btnn1,
+.btn_change{
+	background: lightgrey;
+    padding: 5px 10px;
+    font-size: 25px;
+    text-decoration: none;
+	color: black;
+	font-size: 140%;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+    cursor: pointer;
+}
+.btn_change:hover,
+.btnn:hover,
+.btnn1:hover{
+	background: blue;
+	transition:0.5s;
+	color:yellow;
+}
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main{
+background-image: url(img/back2.jpg);
+    background-size: contain;
+    height: 53.563rem;
+    width: 80rem;
+    background-repeat: no-repeat;
+	position: fixed;
+	
+}
+
+.btn{
+
+    position: relative;
+    
+}
+.wrap{
+	/*width: 30%;*/
+    margin: 0 auto;
+	    z-index: 8888888888888;
+    position: relative;
+}
+.first,
+.white_back{
+	position: fixed;
+    height: 100%;
+    width: 100%;
+    background: white;
+    left: 0;
+    z-index: 999;
+}
+.items{
+	position: absolute;
+    top: 40rem;
+    left: 43rem;
+    width: 9.375rem;
+    height: 9.375rem;
+}
+
+
+
+
+#doc_number::before{
+	content: "00";
+	
+}
+
+
+
+
+.middle_name{
+    position: absolute;
+    top: 29.5rem;
+   
+}
+.sex,
+.nationality{
+	position: absolute; 
+	 top: 33rem;
+}
+
+
+
+#doc_number{
+	display: contents;
+    position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+	  
+}
+
+
+
+
+.expiry{
+    position: absolute;
+    top: 40rem;
+    
+}
+
+.golo{
+	    position: absolute;
+   left: 26.75rem;
+    top: 21.3rem;
+}
+.golo img{
+	   width: 13.563rem;
+		
+}
+.photo{
+	position: absolute;
+    left: 15rem;
+    top: 21rem;
+}
+.photo img{
+	width: 18.313rem;
+    height: 24.875rem;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.7;
+    object-fit: cover;
+}
+#preview{
+  /*display: none;*/
+}
+
+input[type="file" i] {
+    padding: 0;
+	background: blue;
+    color: yellow;
+}
+.url_btn{
+	padding: 4px;
+    font-size: 110%;
+}
+
+.url_input{
+	   
+		font-size:110% !Important;
+		padding: 4px;
+}
+.paste_inputs{
+	
+}
+.btn input{
+	font-size:130%;
+	outline: none;
+	
+}
+
+
+.paste_surname,
+.en_paste_surname,
+.paste_name,
+.en_paste_name,
+.paste_date,
+.reverse_bir_date{
+	position: absolute;
+	left: 36.5rem;
+}
+.paste_surname{
+	top: 35%;
+}
+.en_paste_surname{
+	top: 39%;
+}
+.paste_name{
+	top: 45%;
+}
+.en_paste_name{
+	top: 49%;
+}
+.paste_date{
+	top: 68%;
+}
+.reverse_bir_date{
+	top: 36.4rem;
+    left: 51.4rem;
+    direction: rtl;
+    text-align: left;
+    word-spacing: -8px;
+}
+
+.num_doc{
+	 top: 40rem;
+    position: absolute;
+    opacity: 0.85;
+    left: 51.6rem !important;
+}
+
+
+textarea{
+	opacity: 0.8;
+	    font-family: system-ui;
+   outline : none;
+  resize : none;
+  overflow : hidden;
+  border:none;
+  background:none;
+  font-size: 185%;
+  text-transform: uppercase;
+  text-shadow: 0 0 0 black;
+    color: transparent;
+	cursor: inherit;
+}
+
+.main_row{
+	opacity: 1;
+ outline : none;
+  resize : none;
+  overflow : auto;
+  border:solid 1px black;
+  width: 96%;
+    font-size: 110%;
+	color:black;
+}
+.ru,
+.en,
+.date_row,
+.sex,
+.middle_name,
+.expiry
+{
+	left: 36.5rem;
+}
+.ru{
+  position: absolute;
+  top: 17.3rem;
+    line-height: 5.5rem;
+
+  
+}
+
+.en{
+ 
+ position: absolute;
+    top: 19.3rem;
+    line-height: 5.5rem;
+}
+.record_row,
+.date_row{
+	 top: 31.55rem;
+	   position: absolute;
+}
+.date_row{
+	
+   
+   
+}
+
+.record_row{    
+  direction: rtl;
+  text-align: left;
+  word-spacing: -8px;
+
+  
+}
+.record_row::before{
+	content:"002-";
+	margin-left: -12px;
+	font-size: 200%;
+}
+.alert{
+	    color: red;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.nationality,
+.num_doc,
+.record_row{
+	    left: 51.4rem;
+}
+.code{
+	 position: absolute;
+	top: 36.4rem;
+    left: 59.5rem;
+}
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only 
+screen and (min-device-pixel-ratio : 1.5) { 
+
+textarea{
+  opacity:0.7;
+  font-weight:300;
+}
+#doc_number{
+	font-size: 165%;	
+font-weight:300;	
+}
+
+}
+
+
+
+

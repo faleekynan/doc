@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Дизельный генератор - by FYP</title>
+  
+  <script  src="./js/keyboard.js"></script>
+<link rel="stylesheet" href="./style.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ0HYN6WET"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQ0HYN6WET');
+</script>
+</head>
+<body>
+<div class="white_back"></div>
+
+
+
+  <div class="main">
+  
+ 
+   
+	<div class="photo" id="photo_m" >
+	 
+	</div>
+   <div class="photo" id="photo" >
+	 
+	</div>
+	<div class="photo"  >
+	<img src='./img/ava.png' id="preview" />
+	 
+	</div>
+	<div class="golo">
+	<IMG SRC="img\golo.png">
+	</div>
+	
+	
+	<div id="expiry">
+	
+	</div>
+	<script  src="./js/expiry.js"></script>
+	
+	
+	<div id="signe">
+	
+	</div>
+	<script  src="./js/signe.js"></script>
+<textarea  readonly rows="3" name="ru"  id="ru" class="ru"  type="text" ></textarea>
+
+
+
+	   <textarea   readonly rows="3" class="en" name="en"  id="en"  type="text" ></textarea></br>
+<textarea  readonly rows="3"  class="record_row" name="record_row"  id="record_row"  type="text" ></textarea>
+	   <textarea  readonly rows="3" name="date"  id="date" class="date_row"   type="text" ></textarea>
+	   
+	   
+   <textarea  readonly rows="1" class="code" type="text" >-002</textarea>
+    <div class="middle_name" id="middle_name">
+    	<script  src="./js/middle_name.js"></script>
+    </div>
+	<div class="middle_name" id="middle_name_m" style="display:none">
+    	<script  src="./js/middle_name_m.js"></script>
+    </div>
+	
+    <textarea  readonly class="sex" id="f" >Ж/F</textarea>
+    <textarea style="display:none" readonly class="sex" id="m">Ч/M</textarea>
+	
+    <textarea  readonly class="nationality" value = "">Україна/Ukr</textarea>
+	
+   <div class="paste_inputs">
+<textarea rows="1" readonly class="paste_surname" id="paste_surname" name="paste_surname" type="text" ></textarea>
+<textarea rows="1" readonly class="en_paste_surname" id="en_paste_surname" name="en_paste_surname" type="text" ></textarea>
+
+<textarea rows="1" readonly class="paste_name" id="paste_name" name="paste_name" type="text" ></textarea>
+<textarea rows="1" readonly class="en_paste_name" id="en_paste_name" name="en_paste_name" type="text" ></textarea>
+
+<textarea rows="1" readonly class="paste_date" id="paste_date" name="paste_date" type="text" ></textarea>
+<textarea rows="1" readonly class="reverse_bir_date" id="reverse_bir_date" type="text"></textarea>
+
+
+	</div>
+	
+	
+	
+	
+	<div class="num_doc">
+
+<div id="doc_number"></div>
+</div>
+<script>
+var randomNumber = Math.floor((Math.random() * 8888888) + 1000000);
+document.getElementById("doc_number").innerHTML = randomNumber;
+</script>
+
+	
+	
+  </div>
+ <nav>
+ <div class="left_ad">
+ <div class="adv">
+<a href="https://fyp-shop.pro/"><img src="img/left.png"/></a>
+ </div>
+ </div>
+   <div class="btn">
+   <div class="first"></div>
+<div class="wrap">
+ <p class="alert">Соблюдение формата - ОБЯЗАТЕЛЬНО!!!</p>
+ <p>Укажите данные в одну строку</p>
+ <textarea rows="3" name="main_row" class="main_row"  onfocus="this.select()" id="main_row"  type="text" placeholder="Укр/Ру в формате -  Фамилия Имя Дата рождения (через пробел)"></textarea> 
+ <br> 
+ <p>Или укажите данные в каждой строке</p> 
+<br>
+<div class="inputs">
+<input id="surname" type="text" placeholder="Фамилия"/>
+<input id="name" type="text" placeholder="Имя"/>
+<br>
+<input id="bir_date" type="text" placeholder="Дата рождения" style="margin-top: 2%;"/>
+<label><input type="radio" checked name="answer" value="f"/>Ж</label>
+<label><input type="radio" name="answer" value="m"/>М</label>
+
+</div>
+
+<p>Выбор фото</p>
+
+<label id="f_ava">
+  <input class="f_ava" type="checkbox" name="coupon_question" value="1" />Women random photo 
+</label>
+<label id="m_ava" style="display:none">
+  <input class="m_ava" type="checkbox" name="coupon_question" value="1" />Man random photo
+</label>
+
+<br><br>
+ <input type='file' name="browser" id='file' />
+ <p id="note">Или вставьте прямую ссылку на фото</p>
+ <input class="url_input" type="url" id="image-input" placeholder="Введите URL ">
+<button class="url_btn" id="b">Вставить фото</button>
+<br><br><br>
+<a class="btnn">Скачать JPG</a>
+<a class="btnn1">Скачать GIF</a>
+</div> 
+</div> 
+<div class="right_ad">
+ <div class="adv">
+<a href="https://fyp-shop.pro/"><img src="img/left.png"/></a>
+ </div>
+ </div>
+</nav>
+
+
+
+
+
+
+<script  src="./js/checkbox.js"></script>
+<script  src="./js/checkbox_rand.js"></script>
+<script  src="./js/script.js"></script>
+ <script  src="./js/save.js"></script>
+<script  src="./js/translate.js"></script>
+<script  src="./js/copy.js"></script>
+ <script  src="./js/random_ava.js"></script>
+</body>
+</html>

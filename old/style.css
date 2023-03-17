@@ -1,0 +1,383 @@
+.ln_ua::placeholder,
+.ln_en::placeholder,
+.fn_ua::placeholder,
+.fn_en::placeholder{
+	color:black;
+}
+.btn_current{
+	background: bisque;
+    padding: 10px 15px;
+    font-size: 25px;
+    text-decoration: none;
+	color: black;
+	font-weight:bold;
+}
+.btn_change{
+	background: beige;
+    padding: 10px 15px;
+    font-size: 25px;
+    text-decoration: none;
+	color: black;
+}
+
+.main{
+    background-image: url(img/back1.jpg);
+    background-position: right;
+    /*background-size: contain;*/
+    height: 900px;
+    width: 1343px;
+    background-repeat: no-repeat;
+	overflow: hidden;
+	
+}
+.back{
+  position: relative;
+    display: block;
+	height:100%;
+	color: transparent;
+  text-shadow: 0 0 0 black;
+  font-family: system-ui;
+}
+.btn{
+	z-index: 999;
+	    height: 100%;
+		width: 27%;
+}
+
+.last_name,
+.first_name,
+.middle_name,
+.sex,
+.birth_day,
+.expiry{
+right: 22.6rem;
+	
+}
+.items{
+	position: absolute;
+    top: 75%;
+    right: 30rem;
+	width:150px;
+height:150px;
+}
+
+
+
+.nationality,
+.record{
+	text-transform: uppercase;
+    font-size: 1.875rem;
+	right: 6.8rem;
+	
+}
+#doc_number::before{
+	content: "00";
+	
+}
+
+.last_name,
+.first_name,
+.middle_name,
+.sex,
+.nationality,
+.record,
+.birth_day,
+.expiry{
+	opacity:0.7;
+	
+}
+
+.last_name{
+	display: inline-grid;
+    position: absolute;
+        top: 20.2rem;
+}
+.first_name{
+	display: inline-grid;
+    position: absolute;
+
+    top: 46%;
+}
+.middle_name{
+	display: inline-grid;
+    position: absolute;
+    top: 56%;
+}
+.sex{
+	display: inline-grid;
+    position: absolute;
+    top: 62.5%;
+}
+.nationality{
+	display: inline-grid;
+    position: absolute;
+    top: 62.5%;
+}
+.record{
+	text-align: left;
+    right: 3rem;
+    position: absolute;
+    top: 68.2%;
+	direction: rtl;
+}
+.record::before{
+	content:"002-";
+	margin-left: -12px;
+	font-size: 2rem;
+}
+
+.record input {
+	    word-spacing: -8px;
+		width: 32%;
+		outline: none;
+}
+
+
+#doc_number{
+	display: contents;
+    position: absolute;
+	font-family: system-ui;
+	font-size: 2rem;
+	  
+}
+
+#doc_number00{
+	position: absolute;
+    display: contents;
+	opacity: 0.85;
+    font-family: system-ui;
+    font-size: 2rem;
+}
+
+#doc_number input{
+	text-shadow: 0 0 black;
+	text-align: left;
+	outline: none;
+	
+}
+.birth_day{
+	display: inline-grid;
+    position: absolute;
+    top: 69%;
+}
+.expiry{
+	display: inline-grid;
+    position: absolute;
+    top: 75%;
+    font-size: 2rem;
+    right: 22.6rem;
+}
+input{
+	text-transform: uppercase;
+    font-size: 1.875rem;
+    background: 0;
+    border: 0;
+	text-align: left;
+	outline: none;
+	text-shadow: 0 0 0 black;
+    color: transparent;
+}
+.golo{
+	    position: absolute;
+   right: 33.7rem;
+    top: 39.8%;
+}
+.golo img{
+	   width: 64%;
+		
+}
+.photo{
+	    position: absolute;
+ right: 48.5rem;
+    top: 21rem;
+}
+.photo img{
+	        width: 325px;
+    height: 430px;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	opacity: 0.7;
+	object-fit: cover;
+}
+#preview{
+  display: none;
+}
+
+.btn{
+	position: absolute;
+    right: 0;
+	
+}
+
+.btn input{
+	font-size:1.7rem;
+	outline: none;
+}
+.num_doc{
+	 top: 74.5%;
+    right: 20rem;
+    position: absolute;
+	opacity: 0.85;
+}
+
+
+@media (max-width: 1600px){
+	.btn{
+	z-index: 999;
+	    height: 100%;
+		width: 30%;
+}
+	.btn input {
+    font-size: 1.5rem;
+	outline: none;
+}
+	.photo{
+		    right: 36.5rem;
+    top: 15.5rem;
+}
+	
+	.photo img {
+    width: 244px;
+    height: 323px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.7;
+	object-fit: cover;
+}
+	.expiry{
+		top: 75%;
+		right: 17rem;
+		    font-size: 1.38rem;
+	}
+.main{
+    background-image: url(img/back2.jpg);
+    background-position: right;
+    /*background-size: contain;*/
+    height: 675px;
+    width: 1008px;
+    background-repeat: no-repeat;
+	overflow: hidden;
+	
+}
+input{
+	font-size: 1.38rem;
+	outline: none;
+}
+.first_name{
+	top: 36%;
+}
+.last_name{
+	top: 19.4rem;
+}
+.last_name,
+.first_name,
+.middle_name,
+.sex,
+.birth_day{
+	right: 17rem;
+}
+.nationality,
+.record{
+	right: 5.2rem;
+}
+.record{
+	right: 2.6rem;
+	top: 67.28%;
+}
+.record::before{
+	font-size: 1.38rem;
+}
+.num_doc{
+	right: 15.6rem;
+	top: 74.75%;
+}
+#doc_number{
+	font-size: 1.38rem;
+}
+.items{
+	width: 110px;
+    height: 110px;
+	    right: 23rem;
+}
+.golo{
+	    right: 19.7rem;
+}
+.golo img{
+	width: 48%;
+
+}
+
+}
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only 
+screen and (min-device-pixel-ratio : 1.5) { 
+.last_name,
+.first_name,
+.middle_name,
+.sex,
+.birth_day{
+	right: 19.5rem;
+}
+.nationality,
+.record{
+	right: 7.8rem;
+}
+.record{
+	right: 5.1rem;
+	top: 67.28%;
+}
+.record input{
+	width:35.5%;
+	outline: none;
+}
+.record::before{
+	font-size: 1.38rem;
+}
+.num_doc{
+	right: 14.9rem;
+	top: 74.75%;
+}
+#doc_number{
+	font-size: 1.38rem;
+}
+.items{
+	width: 110px;
+    height: 110px;
+	    right: 23rem;
+}
+.golo{
+	    right: 19.7rem;
+}
+.golo img{
+	width: 48%;
+
+}
+
+.photo{
+	    position: absolute;
+ right: 36rem;
+    top: 15.5rem;
+}
+.photo img{
+	        width: 244px;
+    height: 323px;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	opacity: 0.7;
+	object-fit: cover;
+}
+.btn input{
+	font-size:1.3rem;
+	outline: none;
+}
+
+.expiry{
+		right: 19.5rem;
+	top: 75%;
+		    font-size: 1.38rem;
+	}
+
+}

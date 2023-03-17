@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Старый дизельный генератор - by FYP</title>
+<link rel="stylesheet" href="./old/style.css">
+
+</head>
+<body>
+
+ <div class="btn">
+  <br>
+  <a class="btn_change" href="./index.html">Открыть новый генератор</a>
+   <br><br><br>
+ <a class="btn_current">You Photo</a>
+<a class="btn_change" href="./old_index_random_photo.html">Random Photo</a>
+<br><br><br>
+ <input type='file' name="browser" id='file' style="
+    height: 100%;
+"/>
+</div>
+  <div class="main">
+  
+ <div class="back">
+ 
+
+
+	<div class="photo">
+	<img src='' id='preview' />
+	</div>
+	<div class="golo">
+	<IMG SRC="img\golo.png">
+	</div>
+	
+	<div class="expiry">
+	<script  src="./old/expiry.js"></script>
+	</div>
+	
+	
+	<script  src="./old/signe.js"></script>
+<div class="last_name">
+	<input type="text" onfocus="this.select()" value = "Смирнова" class="ln_ua" id="ln_ua">
+	   <input type="text" onfocus="this.select()" value = "Smirnova" class="ln_en" id="ln_en">
+	   </div>
+	   
+	   <div class="first_name">
+	<input type="text" onfocus="this.select()" value = "Катерина" class="fn_ua" >
+	   <input type="text" onfocus="this.select()" value = "Katerina" class="fn_en" >
+	   </div>
+	   
+	   
+	   
+	   
+   
+    <div class="middle_name">
+    	<script  src="./old/middle_name.js"></script>
+    </div>
+	<div class="sex">
+    <input value = "Ж/F">
+    </div>
+	<div class="nationality">
+    <input value = "Україна/Ukr">
+    </div>
+	<div class="birth_day">
+    <input onfocus="this.select()" id="birth" name="results" type="text" value = "05 08 2005" >
+    </div>
+	<div class="record">
+   <input onfocus="this.select()" id="rec" name="results" type="text" value = "20050805">
+    </div>
+	
+	
+	
+	<div class="num_doc">
+
+<div id="doc_number"></div>
+</div>
+<script>
+var randomNumber = Math.floor((Math.random() * 8888888) + 1000000);
+document.getElementById("doc_number").innerHTML = randomNumber;
+</script>
+
+	
+	<script>
+	document.getElementById('birth').addEventListener('input', function(e){
+  e.target.value = e.target.value.split('.').join(' ');
+});
+	</script> 
+	
+	<script>
+	document.getElementById('rec').addEventListener('input', function(e){
+  e.target.value = e.target.value.split('.').join(' ');
+});
+	</script> 
+	
+    </div>
+  </div>
+  
+  <script  src="./old/script.js"></script>
+<script  src="./old/translate.js"></script>
+<script  src="./old/copy.js"></script>
+</body>
+</html>
