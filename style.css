@@ -6,17 +6,17 @@ nav {
 		z-index: 999;
 		    position: relative;
 }
-.right_ad,
-.left_ad{
+.right_base,
+.left_base{
 	position:relative;
 	z-index: 99999999999;
 }
 
-.adv{
+.base{
 	
 	
 }
-.adv img{
+.base img{
 	width: 100%;
 }
 
