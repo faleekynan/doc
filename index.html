@@ -18,12 +18,33 @@
 </script>
 </head>
 <body>
+ 
 <div class="white_back"></div>
 
 
 
-  <div class="main">
-  
+  <div id="fon" class="main">
+ <script>
+    var backgrounds = [
+      'img/rand_back1.png',
+      'img/rand_back2.png',
+      'img/rand_back3.png',
+      // Додайте сюди інші посилання на зображення, які ви хочете використовувати
+    ];
+
+    function getRandomIndex(max) {
+      return Math.floor(Math.random() * max);
+    }
+    
+    // Отримуємо елемент div з фоном
+    var mainDiv = document.getElementById('fon');
+    
+    // Генеруємо випадковий індекс зображення
+    var randomIndex = getRandomIndex(backgrounds.length);
+    
+    // Встановлюємо фон
+    mainDiv.style.backgroundImage = 'url(' + backgrounds[randomIndex] + ')';
+  </script>
  
    
 	<div class="photo" id="photo_m" >
