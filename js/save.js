@@ -28,7 +28,7 @@ $(document).ready(function(){
         var link = document.createElement('a');
 		var num = Math.floor((Math.random() * 8888888) + 1000000);
 		
-        link.download = ("IMG_" + num + ".gif");
+        link.download = ("IMG_" + num + ".png");
         link.href = dataUrl;
         link.click();
     });
