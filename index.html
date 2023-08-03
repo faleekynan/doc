@@ -139,38 +139,17 @@ document.getElementById("doc_number").innerHTML = randomNumber;
  <p>Или укажите данные в каждой строке</p> 
 <br>
 <div class="inputs">
-<input id="name" oninput="splitText(this)" type="text" placeholder="Имя"/>
-<input id="surname" oninput="splitText(this)" type="text" placeholder="Фамилия"/>
+<input id="name" type="text" placeholder="Имя"/>
+<input id="surname" type="text" placeholder="Фамилия"/>
 
 <br>
-<input id="bir_date" oninput="splitText(this)" type="text" placeholder="Дата рождения" style="margin-top: 2%;"/>
+<input id="bir_date" type="text" placeholder="Дата рождения" style="margin-top: 2%;"/>
 <label><input type="radio" checked name="answer" value="f"/>Ж</label>
 <label><input type="radio" name="answer" value="m"/>М</label>
 
 </div>
 
-<script>
-function splitText(inputElement) {
-  const text = inputElement.value;
-  const spacePosition = text.indexOf(' ');
-  const tabPosition = text.indexOf('\t');
 
-  if (spacePosition !== -1 && tabPosition !== -1 && spacePosition < tabPosition) {
-    const name = text.substring(0, spacePosition);
-    const surname = text.substring(spacePosition + 1, tabPosition);
-    const date = text.substring(tabPosition + 1);
-
-    document.getElementById('name').value = name;
-    document.getElementById('surname').value = surname;
-    document.getElementById('bir_date').value = date;
-  } else {
-    // Якщо пробілу та табуляції немає або вони в неправильному порядку, просто заповніть перший інпут
-    document.getElementById('name').value = text;
-    document.getElementById('surname').value = '';
-    document.getElementById('bir_date').value = '';
-  }
-}
-</script>
 
 <p>Выбор фото</p>
 
