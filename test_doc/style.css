@@ -1,0 +1,299 @@
+
+body {
+    display: block;
+    margin: 0px;
+	font-family: sans-serif;
+}
+#fon {
+background-size: contain;
+    height: 53.563rem;
+    width: 80rem;
+    background-repeat: no-repeat;
+}
+
+.preview {
+width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.surname_name{
+	    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.surname_name label{
+	margin-right: 25px;
+}
+.surname_name input{
+	width:100%;
+}
+#inputs {
+position: absolute;
+    top: 2%;
+    left: 50%;
+    z-index: 3333;
+    display: flex;
+    transform: translate(-50%, 0);
+    flex-direction: column;
+    
+}
+#inputs label {
+
+}
+
+label{
+	font-weight: 600;
+}
+#inputs select,
+label select,
+#inputs input {
+
+ padding-block: 7px;
+    padding-inline: 7px;
+	border-width: revert;
+    border-radius: 5px;
+}
+
+
+
+
+.main{
+	position:relative;
+}
+.content {
+	position:relative;
+
+}
+#divToScreenshot{
+	display: inline-flex;
+}
+.hide{
+	    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 1;
+
+}
+#inputs a img{
+width: 1000px;
+    height: 180px;
+    object-fit: cover;
+}
+.options{
+	z-index:2;
+
+}
+.title{
+	font-size: 20px;
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+}
+.items{
+	position: absolute;
+    top: 40rem;
+    left: 43rem;
+    width: 9.375rem;
+    height: 9.375rem;
+	opacity: 0.7;
+}
+
+.image-container {
+position: absolute;
+    top: 15rem;
+    left: 60rem;
+
+    }
+	.image-container img{
+		width: 30%;
+		opacity: 0.7;
+		box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, .2);
+	}
+#generateScreenshotButton,
+#downloadScreenshotButton,
+#screenshotResult{
+	z-index:2;
+	 
+}
+#generateScreenshotButton {
+	text-align: center;
+    background: #6969f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#photo{
+	position:absolute;
+	top: 20rem;
+    left: 15rem;
+	opacity: 0.7;
+}
+#photo img {
+width: 17.313rem;
+    height: 23.875rem;
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+
+    object-fit: cover;
+
+   
+}
+.category{
+	position:absolute;
+	font-size: 20px;
+	opacity: 0.75;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+}
+.category_text{
+	position:absolute;
+	font-size: 20px;
+	text-transform: uppercase;
+	opacity: 0.75;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+}
+.category_text1{
+	position:absolute;
+	font-size: 26px;
+	text-transform: none;
+}
+
+#header{
+	top: 14rem;
+    left: 14.5rem;
+	position: absolute;
+	    opacity: 0.5;
+}
+
+.header{
+	position: absolute;
+    width: 100%;
+
+    font-size: 30px;
+	
+}
+#input5-preview{
+	text-transform: capitalize;
+}
+#surname{
+	top: 18rem;
+    left: 40rem;
+}
+#name{
+	    left: 40rem;
+    top: 23rem;
+
+}
+#birth{
+	left: 40rem;
+    top: 28rem;
+}
+#sex{
+	left: 40rem;
+    top: 33rem;
+}
+#expiry{
+	left: 40rem;
+    top: 38rem;
+}
+#country{
+	left: 55rem;
+    top: 28rem;
+}
+#record{
+	left: 55rem;
+    top: 33rem;
+}
+#document{
+	left: 55rem;
+    top: 38rem;
+}
+#random6{
+	left: 55rem;
+	top: 35rem;
+}
+#random12{
+	left: 55rem;
+	top: 40rem;
+}
+
+#tenYearsLater{
+	left: 40rem;
+    top: 40rem;
+}
+#genderOutput{
+	left: 40rem;
+    top: 35rem;
+}
+#input1-preview {
+    left: 40rem;
+    top: 20rem;
+}
+
+#input2-preview {
+left: 40rem;
+top: 25rem;
+}
+
+#input3-preview{
+	left: 40rem;
+	top: 30rem;
+    
+}
+#input4-preview{
+	left: 55rem;
+	top: 30rem;
+	white-space: pre-line;
+    width: 15rem;
+}
+
+#input6-preview,
+#input7-preview,
+#input8-preview,
+#input9-preview,
+#input10-preview,
+#input11-preview,
+#input12-preview,
+#input13-preview,
+#input14-preview {
+	display:none;
+}
+#screenshotResult{
+	display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap;
+    align-items: center;
+	margin-top: 15px;
+	
+}
+#screenshotResult a {
+     text-align: center;
+    background: #6969f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+
+}
+#screenshotResult img {
+width: 1000px;
+margin-top: 15px;
+}
+#downloadScreenshotButton{
+	text-align:center;
+	background: blue;
+	padding:5px 10px;
+}
+
+canvas {
+        display: block;
+		position:absolute;
+		top:0;
+		left:0;
+    }
