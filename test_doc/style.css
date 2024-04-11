@@ -31,15 +31,26 @@ width: 200px;
 	width:100%;
 }
 #inputs {
-position: absolute;
-    top: 2%;
-    left: 50%;
+margin-top: 30px;
+    
     z-index: 3333;
     display: flex;
-    transform: translate(-50%, 0);
+  
     flex-direction: column;
     
 }
+
+nav {
+  display: grid;
+    gap: 0rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    z-index: 999;
+    position: absolute;
+    top: 0;
+
+}
+
+
 #inputs label {
 
 }
@@ -71,17 +82,16 @@ label select,
 	display: inline-flex;
 }
 .hide{
-	    position: absolute;
+	    position: fixed;
     width: 100%;
     height: 100%;
     background: white;
     z-index: 1;
 
 }
-#inputs a img{
-width: 1000px;
-    height: 180px;
-    object-fit: cover;
+.main a img{
+height: 100%;
+
 }
 .options{
 	z-index:2;
@@ -282,7 +292,7 @@ flex-wrap: wrap;
 
 }
 #screenshotResult img {
-width: 1000px;
+width: 100%;
 margin-top: 15px;
 }
 #downloadScreenshotButton{
@@ -297,3 +307,15 @@ canvas {
 		top:0;
 		left:0;
     }
+	
+@media (max-width: 768px) {
+	nav {
+    display: grid;
+    gap: 0rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    z-index: 999;
+    position: absolute;
+    top: 0;
+}
+	
+}
