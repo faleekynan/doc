@@ -13,6 +13,7 @@ li.box-listing__item.category_item > .box-listing__text>p {
     background: #6183e4 !important;
     color: #ffffff;
 }
+
 .btn:hover, a.btn:hover {
 opacity: 0.6 !important;
     color: #fff !important;
@@ -24,4 +25,7 @@ opacity: 0.6 !important;
    color: #6183e4 !important;
     text-decoration: underline;
     
+}
+.home-slid4er p a:hover {
+    opacity: 0.6 !important;
 }
