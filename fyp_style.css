@@ -21,7 +21,7 @@ opacity: 0.6 !important;
 }
 
 .main-menu .main-menu__item a:hover {
-    color: #6183e4 !important;
-    font-weight: 600 !important;
+   color: #6183e4 !important;
+    text-decoration: underline;
     
 }
