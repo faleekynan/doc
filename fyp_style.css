@@ -1,1 +1,7 @@
 
+.main-wrapper .main .wrapper .box .box-listing .box-listing__item .box-listing__text p {
+    color: #000000;
+}
+li.box-listing__item.category_item > .box-listing__text>p {
+    color: red !important;
+}
