@@ -19,3 +19,9 @@ opacity: 0.6 !important;
     /* border-color: #f6f6f6; */
     border: 0px !Important;
 }
+
+.main-menu .main-menu__item a:hover {
+    color: #6183e4 !important;
+    font-weight: 600 !important;
+    
+}
