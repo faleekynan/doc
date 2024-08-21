@@ -3,11 +3,11 @@
     color: #000000;
 }
 li.box-listing__item.category_item > .box-listing__text>p {
-  color: #6183e4 !important;
+  color: #fff !important;
     font-size: 19px;
     text-align: center;
-    line-height: 71px;
-    background: url(https://i.ibb.co/1fkngsw/531b6fdd8c16.png) center bottom no-repeat !important;
+    line-height: 40px;
+    background-color: #6183e4 !important; 
 }
 .filter__link:not(.active):hover {
     background: #6183e4 !important;
