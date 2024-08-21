@@ -66,3 +66,12 @@ li.box-listing__item.category_item::after {
     margin-right: 30px;
     right: 0;
 }
+.cart_div {
+   background: transparent ;
+    bottom: 0 !important;
+    right: 50px !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    
+}
