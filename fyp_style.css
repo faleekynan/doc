@@ -8,6 +8,12 @@ li.box-listing__item.category_item > .box-listing__text>p {
     text-align: center;
     line-height: 40px;
     background-color: #6183e4 !important; 
+    border-radius: 100px;
+}
+.box-listing__text {
+    
+    margin-right: 0px !important;
+    
 }
 .filter__link:not(.active):hover {
     background: #6183e4 !important;
